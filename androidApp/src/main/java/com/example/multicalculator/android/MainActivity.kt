@@ -122,8 +122,7 @@ fun CalcOperationButton(operation: String, display: MutableState<String>) {
 }
 
 @Composable
-fun CalcEqualsButton(display: MutableState<String>)
-{
+fun CalcEqualsButton(display: MutableState<String>) {
     Button(
         onClick = { display.value = "0" },
         modifier = Modifier.padding(4.dp)
